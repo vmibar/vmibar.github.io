@@ -7,6 +7,7 @@ html {
     color: #202020;
     --primary: #c40f63;
     --text: #202020;
+    background-color: #F5F5F5;
 }
 
 h1 {
@@ -73,6 +74,7 @@ strong {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(192, 192, 192, 0.1);
+    backdrop-filter: blur(8px);
 }
 
 #logo {
@@ -227,15 +229,18 @@ main a:hover {
 
 footer {
     display: flex;
-    flex-direction: row;
     align-items: center;
     color: #FFF;
-    height: 80px;
-    background-color: var(--primary);
+    height: auto;
+    background-color: var(--text);
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom:10px;
 }
 
 footer p{
 font-size: 14px;
+font-weight:400
 }
 
 #copy {
@@ -244,7 +249,8 @@ font-size: 14px;
     width: 886px;
 }
 
-.dancer ::after {
-    content: "\1F57A";
+footer .rocket::after {
     display:inline;
+    font-size: 18px;
+    margin-left: 4px;
 }
