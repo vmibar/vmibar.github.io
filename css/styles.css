@@ -62,7 +62,7 @@ strong {
 
 #navbar {
     display: flexbox;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     overflow: hidden;
     position: fixed;
     /* Set the navbar to fixed position */
@@ -163,13 +163,23 @@ main a:hover {
 
 /* PROYECTOS */
 
+#proyectos .descripcion {
+    width: 546px;
+}
+
+#proyectos .titulo {
+    width: 298px;
+}
+
 #proyectos img {
     border-radius: 16px;
 }
 
-/* ICEBREAKER */
+#proyectos h2 {
+    line-height: 50px;
+}
 
-#icebreaker-text {
+#proyectos .prtext {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -177,13 +187,7 @@ main a:hover {
     margin-bottom: 48px;
 }
 
-#icebreaker .titulo {
-    width: 209px;
-}
-
-#icebreaker .descripcion {
-    width: 546px;
-}
+/* ICEBREAKER */
 
 #icebreaker hr{
     margin-bottom: 100px;
@@ -191,39 +195,7 @@ main a:hover {
 
 /* BEPOP */
 
-#bepop-text {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 48px;
-}
-
-#bepop .titulo {
-    width: 209px;
-}
-
-#bepop .descripcion {
-    width: 546px;
-}
-
 /* UNDERLINED */
-
-#underlined-text {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 48px;
-}
-
-#underlined .titulo {
-    width: 209px;
-}
-
-#underlined .descripcion {
-    width: 546px;
-}
 
 /* FOOTER */
 
