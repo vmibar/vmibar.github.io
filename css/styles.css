@@ -1,0 +1,250 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-family: 'Inter';
+    color: #202020;
+    --primary: #c40f63;
+    --text: #202020;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+hr {
+    margin-top: 56px;
+    margin-bottom: 56px;
+    margin-left:auto;
+    margin-right: auto;
+    color: #A8A8A8;
+}
+
+strong {
+    font-weight: 500;
+}
+
+/* NAVBAR */
+
+#navbar {
+    display: flexbox;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(192, 192, 192, 0.1);
+}
+
+#logo {
+    margin-left: 10%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin-right: 10%;
+}
+
+#navbar li {
+    display: inline;
+    font-weight: semibold;
+    font-size: 16px;
+}
+
+#navbar li :not(last-child) {
+    margin-left: 24px;
+}
+
+#navbar a:hover {
+    /*
+    text-decoration:underline;
+    text-decoration-thickness: 2px; */
+    color: var(--primary);
+    transition: color 0.2s ease;
+}
+
+
+.actual {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--primary);
+}
+
+main {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 886px;
+}
+
+main a {
+    text-decoration: underline;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color:var(--primary);
+}
+
+/* PRESENTACION */
+
+.rocket::after {
+    content: "\1F680";
+      /* CSS Pseudo-elements escape some characters that's why the unicode 'U+1F36E' is converted to '\1F36E' */
+    font-size: 35px;
+  }
+
+#presentacion {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 112px;
+
+}
+
+#texto-presentacion {
+    width: 434px;
+}
+
+#presentacion img {
+    width: 216px;
+    height: 216px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#presentacion h1 {
+    line-height: 38px;
+}
+
+/* PROYECTOS */
+
+#proyectos img {
+    border-radius: 16px;
+}
+
+/* ICEBREAKER */
+
+#icebreaker-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+#icebreaker .titulo {
+    width: 209px;
+}
+
+#icebreaker .descripcion {
+    width: 546px;
+}
+
+#icebreaker hr{
+    margin-bottom: 100px;
+}
+
+/* BEPOP */
+
+#bepop-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+#bepop .titulo {
+    width: 209px;
+}
+
+#bepop .descripcion {
+    width: 546px;
+}
+
+/* UNDERLINED */
+
+#underlined-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+#underlined .titulo {
+    width: 209px;
+}
+
+#underlined .descripcion {
+    width: 546px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFF;
+    height: 80px;
+    background-color: var(--primary);
+}
+
+footer p{
+font-size: 14px;
+}
+
+#copy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 886px;
+}
+
+.dancer ::after {
+    content: "\1F57A";
+    display:inline;
+}
