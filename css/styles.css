@@ -106,6 +106,10 @@ strong {
     transition: color 0.2s ease;
 }
 
+#navbar .mail{
+    font-weight: 500;
+}
+
 
 .actual {
     font-weight: 600;
@@ -196,6 +200,16 @@ main a:hover {
 /* BEPOP */
 
 /* UNDERLINED */
+
+/*
+.email::after{
+    content:"\1F4E7";
+    display: inline;
+    font-size: 32px;
+    margin-left: 16px;
+}
+*/
+
 
 /* FOOTER */
 
